@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "codingkeysmacro",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yossibank/CodingKeysMacro",
+      "state" : {
+        "revision" : "342f794fdf42017fb5e3ff24898bef893cf8e8a2",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "ohhttpstubs",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AliSoftware/OHHTTPStubs",
+      "state" : {
+        "revision" : "12f19662426d0434d6c330c6974d53e2eb10ecd9",
+        "version" : "9.1.0"
+      }
+    },
+    {
+      "identity" : "structbuildermacro",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yossibank/StructBuilderMacro",
+      "state" : {
+        "revision" : "68821b7150cdcb93ed30c63b48a62405ce1e5404",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-syntax.git",
+      "state" : {
+        "revision" : "64889f0c732f210a935a0ad7cda38f77f876262d",
+        "version" : "509.1.1"
+      }
+    },
+    {
+      "identity" : "swiftformat",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nicklockwood/SwiftFormat",
+      "state" : {
+        "revision" : "d6309f7440889427426143b4a0b100b959d3f3e6",
+        "version" : "0.54.3"
+      }
+    }
+  ],
+  "version" : 2
+}

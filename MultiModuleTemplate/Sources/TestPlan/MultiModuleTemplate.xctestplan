@@ -1,0 +1,56 @@
+{
+  "configurations" : [
+    {
+      "id" : "6414CD4A-8B19-403A-8822-FBA89829C0BD",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "language" : "ja",
+    "locationScenario" : {
+      "identifier" : "Tokyo, Japan",
+      "referenceType" : "built-in"
+    },
+    "region" : "JP",
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MultiModuleTemplate.xcodeproj",
+      "identifier" : "782C42A62BF64DA10099D08E",
+      "name" : "MultiModuleTemplate"
+    },
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:..\/Package",
+        "identifier" : "APIClientTests",
+        "name" : "APIClientTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Package",
+        "identifier" : "RakutenTests",
+        "name" : "RakutenTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Package",
+        "identifier" : "RakutenViewTests",
+        "name" : "RakutenViewTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Package",
+        "identifier" : "UtilityTests",
+        "name" : "UtilityTests"
+      }
+    }
+  ],
+  "version" : 1
+}

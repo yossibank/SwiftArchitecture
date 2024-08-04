@@ -1,0 +1,18 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "テスト実行"
+  lane :test do
+    scan(
+      workspace: 'MultiModuleTemplate.xcworkspace',
+      configuration: "Debug",
+      scheme: "Debug",
+      device: "iPhone 15 (17.2)",
+      result_bundle: true,
+      output_directory: "build",
+      cloned_source_packages_path: "SourcePackages",
+      derived_data_path: "DerivedData",
+      clean: true
+    )
+  end
+end

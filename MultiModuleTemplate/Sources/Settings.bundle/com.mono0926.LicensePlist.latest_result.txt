@@ -1,0 +1,33 @@
+name: APIKit, nameSpecified: APIKit, owner: ishkawa, version: 5.4.0, source: https://github.com/ishkawa/APIKit
+
+name: CodingKeysMacro, nameSpecified: CodingKeys, owner: yossibank, version: 1.0.0, source: https://github.com/yossibank/CodingKeysMacro
+
+name: HeliumLogger, nameSpecified: HeliumLogger, owner: Kitura, version: 2.0.0, source: https://github.com/Kitura/HeliumLogger
+
+name: LicensePlist, nameSpecified: LicensePlist, owner: mono0926, version: 3.25.1, source: https://github.com/mono0926/LicensePlist
+
+name: LoggerAPI, nameSpecified: LoggerAPI, owner: Kitura, version: 2.0.0, source: https://github.com/Kitura/LoggerAPI
+
+name: OHHTTPStubs, nameSpecified: OHHTTPStubs, owner: AliSoftware, version: 9.1.0, source: https://github.com/AliSoftware/OHHTTPStubs
+
+name: StructBuilderMacro, nameSpecified: StructBuilder, owner: yossibank, version: 1.0.0, source: https://github.com/yossibank/StructBuilderMacro
+
+name: swift-argument-parser, nameSpecified: swift-argument-parser, owner: apple, version: 1.5.0, source: https://github.com/apple/swift-argument-parser
+
+name: swift-html-entities, nameSpecified: HTMLEntities, owner: Kitura, version: 4.0.1, source: https://github.com/Kitura/swift-html-entities
+
+name: swift-log, nameSpecified: swift-log, owner: apple, version: 1.6.1, source: https://github.com/apple/swift-log
+
+name: swift-syntax, nameSpecified: swift-syntax, owner: apple, version: 509.1.1, source: https://github.com/apple/swift-syntax
+
+name: SwiftFormat, nameSpecified: SwiftFormat, owner: nicklockwood, version: 0.54.3, source: https://github.com/nicklockwood/SwiftFormat
+
+name: SwiftFormat, nameSpecified: SwiftFormat, owner: nicklockwood, version: 0.54.3, source: https://github.com/nicklockwood/SwiftFormat
+
+name: XcodeEdit, nameSpecified: XcodeEdit, owner: tomlokhorst, version: 2.9.2, source: https://github.com/tomlokhorst/XcodeEdit
+
+name: Yams, nameSpecified: Yams, owner: jpsim, version: 5.1.3, source: https://github.com/jpsim/Yams
+
+add-version-numbers: false
+
+LicensePlist Version: 3.25.1

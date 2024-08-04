@@ -1,0 +1,62 @@
+name: Renovate
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - "**/Package.swift"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  statuses: write
+
+env:
+  DEVELOPER_DIR: /Applications/Xcode_15.4.app
+
+jobs:
+  preupdate:
+    runs-on: macos-latest
+
+    outputs:
+      files_changed: ${{ steps.file_changes.outputs.files }}
+
+    if: contains(github.head_ref, 'renovate')
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: File changes
+        id: file_changes
+        uses: trilom/file-changes-action@v1.2.4
+        with:
+          output: ','
+
+  update:
+    runs-on: macos-latest
+
+    needs: preupdate
+
+    if: contains(needs.preupdate.outputs.files_changed, 'Package.resolved') == false
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Resolve package dependencies
+        run: |
+          make update-package
+
+      - name: Commit changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "[Renovate] Updated Package.resolved."
+          git clean -df
+          git push
