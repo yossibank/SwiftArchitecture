@@ -16,9 +16,9 @@
     },
     "region" : "JP",
     "targetForVariableExpansion" : {
-      "containerPath" : "container:MultiModuleTemplate.xcodeproj",
+      "containerPath" : "container:SwiftArchitecture.xcodeproj",
       "identifier" : "782C42A62BF64DA10099D08E",
-      "name" : "MultiModuleTemplate"
+      "name" : "SwiftArchitecture"
     },
     "testExecutionOrdering" : "random"
   },

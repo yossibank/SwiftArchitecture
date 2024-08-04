@@ -16,27 +16,27 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "782C42A62BF64DA10099D08E"
-               BuildableName = "MultiModuleTemplate.app"
-               BlueprintName = "MultiModuleTemplate"
-               ReferencedContainer = "container:MultiModuleTemplate.xcodeproj">
+               BuildableName = "SwiftArchitecture.app"
+               BlueprintName = "SwiftArchitecture"
+               ReferencedContainer = "container:SwiftArchitecture.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "AdHoc"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:Sources/TestPlan/MultiModuleTemplate.xctestplan"
+            reference = "container:Sources/TestPlan/SwiftArchitecture.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "AdHoc"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -50,9 +50,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "782C42A62BF64DA10099D08E"
-            BuildableName = "MultiModuleTemplate.app"
-            BlueprintName = "MultiModuleTemplate"
-            ReferencedContainer = "container:MultiModuleTemplate.xcodeproj">
+            BuildableName = "SwiftArchitecture.app"
+            BlueprintName = "SwiftArchitecture"
+            ReferencedContainer = "container:SwiftArchitecture.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -64,7 +64,7 @@
       </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "AdHoc"
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -74,17 +74,17 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "782C42A62BF64DA10099D08E"
-            BuildableName = "MultiModuleTemplate.app"
-            BlueprintName = "MultiModuleTemplate"
-            ReferencedContainer = "container:MultiModuleTemplate.xcodeproj">
+            BuildableName = "SwiftArchitecture.app"
+            BlueprintName = "SwiftArchitecture"
+            ReferencedContainer = "container:SwiftArchitecture.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "AdHoc">
+      buildConfiguration = "Release">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "AdHoc"
+      buildConfiguration = "Release"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

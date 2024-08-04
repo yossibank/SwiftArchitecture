@@ -1,4 +1,4 @@
-xcodebuild -resolvePackageDependencies -workspace MultiModuleTemplate.xcworkspace -scheme Debug
+xcodebuild -resolvePackageDependencies -workspace SwiftArchitecture.xcworkspace -scheme Debug
 
 cd BuildTools
 xcodebuild -resolvePackageDependencies
@@ -11,8 +11,8 @@ xcrun --sdk macosx swift build -c release \
 
 .build/checkouts/LicensePlist/.build/release/license-plist \
     --package-path Package.resolved \
-    --package-path ../MultiModuleTemplate.xcworkspace/xcshareddata/swiftpm/Package.resolved \
-    --output-path ../MultiModuleTemplate/Sources/Settings.bundle
+    --package-path ../SwiftArchitecture.xcworkspace/xcshareddata/swiftpm/Package.resolved \
+    --output-path ../SwiftArchitecture/Sources/Settings.bundle
 
 cd ../Macros/CodingKeys
 xcodebuild -resolvePackageDependencies

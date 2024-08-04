@@ -90,7 +90,7 @@ jobs:
       - name: Xcode Build
         run: set -o pipefail &&
           xcodebuild
-          -workspace MultiModuleTemplate.xcworkspace
+          -workspace SwiftArchitecture.xcworkspace
           -sdk iphonesimulator
           -configuration Debug
           -scheme Debug

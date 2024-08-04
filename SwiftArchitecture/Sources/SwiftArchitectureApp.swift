@@ -5,7 +5,7 @@ import SwiftData
 import SwiftUI
 
 @main
-struct MultiModuleTemplateApp: App {
+struct SwiftArchitectureApp: App {
     @State private var isShowDebugView = false
 
     var body: some Scene {

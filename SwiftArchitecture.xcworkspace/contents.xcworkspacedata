@@ -5,7 +5,7 @@
       location = "group:Demo/SampleDemo.swiftpm">
    </FileRef>
    <FileRef
-      location = "group:MultiModuleTemplate/MultiModuleTemplate.xcodeproj">
+      location = "group:SwiftArchitecture/SwiftArchitecture.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Package">

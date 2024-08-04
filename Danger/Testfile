@@ -2,10 +2,10 @@
 github.dismiss_out_of_range_messages
 
 ### コードカバレッジ ###
-system("mint run xcparse codecov Test/MultiModuleTemplate.xcresult ./")
+system("mint run xcparse codecov Test/SwiftArchitecture.xcresult ./")
 
 xcov.report(
-    workspace: "MultiModuleTemplate.xcworkspace",
+    workspace: "SwiftArchitecture.xcworkspace",
     scheme: "Debug",
     xccov_file_direct_path: "action.xccovreport",
     only_project_targets: false

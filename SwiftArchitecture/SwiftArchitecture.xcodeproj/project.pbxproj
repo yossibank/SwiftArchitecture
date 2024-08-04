@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		780F1E232C3AA35D001FADBD /* AppCore in Frameworks */ = {isa = PBXBuildFile; productRef = 780F1E222C3AA35D001FADBD /* AppCore */; };
 		780F1E252C3AA365001FADBD /* RakutenView in Frameworks */ = {isa = PBXBuildFile; productRef = 780F1E242C3AA365001FADBD /* RakutenView */; };
-		782C42AB2BF64DA10099D08E /* MultiModuleTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C42AA2BF64DA10099D08E /* MultiModuleTemplateApp.swift */; };
+		782C42AB2BF64DA10099D08E /* SwiftArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C42AA2BF64DA10099D08E /* SwiftArchitectureApp.swift */; };
 		782C42AF2BF64DA20099D08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782C42AE2BF64DA20099D08E /* Assets.xcassets */; };
 		782C42B22BF64DA20099D08E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782C42B12BF64DA20099D08E /* Preview Assets.xcassets */; };
 		785654412C3A72D400D5B0F9 /* APIClient in Frameworks */ = {isa = PBXBuildFile; productRef = 785654402C3A72D400D5B0F9 /* APIClient */; };
@@ -23,12 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		782C42A72BF64DA10099D08E /* MultiModuleTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiModuleTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		782C42AA2BF64DA10099D08E /* MultiModuleTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiModuleTemplateApp.swift; sourceTree = "<group>"; };
+		782C42A72BF64DA10099D08E /* SwiftArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		782C42AA2BF64DA10099D08E /* SwiftArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftArchitectureApp.swift; sourceTree = "<group>"; };
 		782C42AE2BF64DA20099D08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		782C42B12BF64DA20099D08E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78B9D1BF2C53E3C500810DEC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		78D5E2162BF7A9C4002C0576 /* MultiModuleTemplate.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MultiModuleTemplate.xctestplan; sourceTree = "<group>"; };
+		78D5E2162BF7A9C4002C0576 /* SwiftArchitecture.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftArchitecture.xctestplan; sourceTree = "<group>"; };
 		78D5E21A2BF7ADA8002C0576 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		78D5E21B2BF7ADB4002C0576 /* AdHoc.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AdHoc.xcconfig; sourceTree = "<group>"; };
 		78D5E21C2BF7ADBB002C0576 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		782C42A82BF64DA10099D08E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				782C42A72BF64DA10099D08E /* MultiModuleTemplate.app */,
+				782C42A72BF64DA10099D08E /* SwiftArchitecture.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 		782C42A92BF64DA10099D08E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				782C42AA2BF64DA10099D08E /* MultiModuleTemplateApp.swift */,
+				782C42AA2BF64DA10099D08E /* SwiftArchitectureApp.swift */,
 				78D5E2192BF7AD74002C0576 /* Configuration */,
 				789B74E32BF7695200294781 /* Resource */,
 				782C42B02BF64DA20099D08E /* Resource Preview */,
@@ -110,7 +110,7 @@
 		78D5E2152BF7A9A8002C0576 /* TestPlan */ = {
 			isa = PBXGroup;
 			children = (
-				78D5E2162BF7A9C4002C0576 /* MultiModuleTemplate.xctestplan */,
+				78D5E2162BF7A9C4002C0576 /* SwiftArchitecture.xctestplan */,
 			);
 			path = TestPlan;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		782C42A62BF64DA10099D08E /* MultiModuleTemplate */ = {
+		782C42A62BF64DA10099D08E /* SwiftArchitecture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 782C42B52BF64DA20099D08E /* Build configuration list for PBXNativeTarget "MultiModuleTemplate" */;
+			buildConfigurationList = 782C42B52BF64DA20099D08E /* Build configuration list for PBXNativeTarget "SwiftArchitecture" */;
 			buildPhases = (
 				782C42A32BF64DA10099D08E /* Sources */,
 				782C42A42BF64DA10099D08E /* Frameworks */,
@@ -142,7 +142,7 @@
 			);
 			dependencies = (
 			);
-			name = MultiModuleTemplate;
+			name = SwiftArchitecture;
 			packageProductDependencies = (
 				789B74E12BF768CE00294781 /* AppIcon */,
 				785654402C3A72D400D5B0F9 /* APIClient */,
@@ -154,8 +154,8 @@
 				786C755A2C4399ED00A258A3 /* UtilityView */,
 				78F8C6DF2C54BF6B00228DE5 /* CodingKeys */,
 			);
-			productName = MultiModuleTemplate;
-			productReference = 782C42A72BF64DA10099D08E /* MultiModuleTemplate.app */;
+			productName = SwiftArchitecture;
+			productReference = 782C42A72BF64DA10099D08E /* SwiftArchitecture.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -173,7 +173,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 782C42A22BF64DA10099D08E /* Build configuration list for PBXProject "MultiModuleTemplate" */;
+			buildConfigurationList = 782C42A22BF64DA10099D08E /* Build configuration list for PBXProject "SwiftArchitecture" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -188,7 +188,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				782C42A62BF64DA10099D08E /* MultiModuleTemplate */,
+				782C42A62BF64DA10099D08E /* SwiftArchitecture */,
 			);
 		};
 /* End PBXProject section */
@@ -252,7 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782C42AB2BF64DA10099D08E /* MultiModuleTemplateApp.swift in Sources */,
+				782C42AB2BF64DA10099D08E /* SwiftArchitectureApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,7 +540,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		782C42A22BF64DA10099D08E /* Build configuration list for PBXProject "MultiModuleTemplate" */ = {
+		782C42A22BF64DA10099D08E /* Build configuration list for PBXProject "SwiftArchitecture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				782C42B32BF64DA20099D08E /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		782C42B52BF64DA20099D08E /* Build configuration list for PBXNativeTarget "MultiModuleTemplate" */ = {
+		782C42B52BF64DA20099D08E /* Build configuration list for PBXNativeTarget "SwiftArchitecture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				782C42B62BF64DA20099D08E /* Debug */,

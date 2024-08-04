@@ -1,4 +1,4 @@
-PRODUCT_NAME := MultiModuleTemplate
+PRODUCT_NAME := SwiftArchitecture
 
 .PHONY: setup
 setup:

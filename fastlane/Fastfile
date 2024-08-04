@@ -4,7 +4,7 @@ platform :ios do
   desc "テスト実行"
   lane :test do
     scan(
-      workspace: 'MultiModuleTemplate.xcworkspace',
+      workspace: 'SwiftArchitecture.xcworkspace',
       configuration: "Debug",
       scheme: "Debug",
       device: "iPhone 15 (17.2)",

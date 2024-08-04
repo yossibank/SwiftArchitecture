@@ -89,14 +89,14 @@ jobs:
       - name: Xcode Test
         run: set -o pipefail &&
           xcodebuild
-          -workspace MultiModuleTemplate.xcworkspace
+          -workspace SwiftArchitecture.xcworkspace
           -sdk iphonesimulator
           -configuration Debug
           -scheme Debug
-          -testPlan 'MultiModuleTemplate'
+          -testPlan 'SwiftArchitecture'
           -destination 'platform=iOS Simulator,name=iPhone 15,OS=17.2'
           -clonedSourcePackagesDirPath SourcePackages
-          -resultBundlePath Test/MultiModuleTemplate.xcresult
+          -resultBundlePath Test/SwiftArchitecture.xcresult
           -derivedDataPath DerivedData
           -skipMacroValidation
           clean test
