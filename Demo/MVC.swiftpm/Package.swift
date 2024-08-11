@@ -41,8 +41,10 @@ let package = Package(
         .executableTarget(
             name: "MVC",
             dependencies: [
+                .product(name: "AppDebug", package: "Package", condition: nil),
                 .product(name: "Rakuten", package: "Package", condition: nil),
-                .product(name: "Utility", package: "Package", condition: nil)
+                .product(name: "Utility", package: "Package", condition: nil),
+                .product(name: "UtilityView", package: "Package", condition: nil)
             ],
             path: "Sources",
             resources: [

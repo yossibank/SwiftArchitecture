@@ -20,6 +20,17 @@ public struct RakutenEntity: DataStructure {
     /// [総ページ数] 最大100
     public let pageCount: Int
 
+    enum CodingKeys: String, CodingKey {
+        case items = "Items"
+        case count
+        case page
+        case first
+        case last
+        case hits
+        case carrier
+        case pageCount
+    }
+
     public struct RakutenItem: DataStructure, Hashable {
         /// [商品名] 従来の商品名は「catchCopy + itemName」で表示される
         public let itemName: String
