@@ -5,6 +5,9 @@
       location = "group:Demo/MVC.swiftpm">
    </FileRef>
    <FileRef
+      location = "group:Demo/MVP.swiftpm">
+   </FileRef>
+   <FileRef
       location = "group:Demo/SampleDemo.swiftpm">
    </FileRef>
    <FileRef

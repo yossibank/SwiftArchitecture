@@ -9,7 +9,10 @@ final class MVCModel {
 
     func search() async {
         do {
-            let model = try await useCase.search(keyword: "からあげ", page: 1)
+            let model = try await useCase.search(
+                keyword: "からあげ",
+                page: 1
+            )
             items = model.items
         } catch {
             print(error.localizedDescription)
