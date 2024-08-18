@@ -1,13 +1,13 @@
 import SwiftUI
 import UtilityView
 
-struct MVCView: View {
-    private let model = MVCModel()
+struct MVVMView: View {
+    private let viewModel = MVVMViewModel()
 
     var body: some View {
         ScrollView {
             LazyVStack(spacing: 16) {
-                ForEach(model.items, id: \.self) { item in
+                ForEach(viewModel.items, id: \.self) { item in
                     VStack(alignment: .center) {
                         HStack(alignment: .top, spacing: 12) {
                             AsyncImageView(
@@ -44,7 +44,7 @@ struct MVCView: View {
         }
         .onAppear {
             Task {
-                await model.search()
+                await viewModel.search()
             }
         }
     }

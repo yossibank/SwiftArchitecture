@@ -2,7 +2,7 @@ import SwiftUI
 import UtilityView
 
 struct MVPView: View {
-    private var presenter = MVPPresenter()
+    private let presenter = MVPPresenter()
 
     var body: some View {
         ScrollView {
