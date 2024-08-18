@@ -8,20 +8,20 @@ import AppleProductTypes
 import PackageDescription
 
 let package = Package(
-    name: "SampleDemo",
+    name: "CleanArchitecture",
     platforms: [
         .iOS("17.0")
     ],
     products: [
         .iOSApplication(
-            name: "SampleDemo",
-            targets: ["SampleDemo"],
-            bundleIdentifier: "yossibank-yahoo.co.jp.SampleDemo",
+            name: "CleanArchitecture",
+            targets: ["CleanArchitecture"],
+            bundleIdentifier: "sample.yossibank-yahoo.co.jp.CleanArchitecture",
             teamIdentifier: "6WHPY5MQSB",
             displayVersion: "1.0",
             bundleVersion: "1",
-            appIcon: .placeholder(icon: .cat),
-            accentColor: .presetColor(.purple),
+            appIcon: .placeholder(icon: .bird),
+            accentColor: .presetColor(.yellow),
             supportedDeviceFamilies: [
                 .pad,
                 .phone
@@ -39,9 +39,12 @@ let package = Package(
     ],
     targets: [
         .executableTarget(
-            name: "SampleDemo",
+            name: "CleanArchitecture",
             dependencies: [
-                .product(name: "Utility", package: "Package", condition: nil)
+                .product(name: "AppDebug", package: "Package", condition: nil),
+                .product(name: "Rakuten", package: "Package", condition: nil),
+                .product(name: "Utility", package: "Package", condition: nil),
+                .product(name: "UtilityView", package: "Package", condition: nil)
             ],
             path: "Sources",
             resources: [

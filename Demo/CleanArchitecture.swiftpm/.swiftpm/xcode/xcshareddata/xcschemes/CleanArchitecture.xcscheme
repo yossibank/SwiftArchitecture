@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SampleDemo"
-               BuildableName = "SampleDemo"
-               BlueprintName = "SampleDemo"
+               BlueprintIdentifier = "CleanArchitecture"
+               BuildableName = "CleanArchitecture"
+               BlueprintName = "CleanArchitecture"
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "SampleDemo"
-            BuildableName = "SampleDemo"
-            BlueprintName = "SampleDemo"
+            BlueprintIdentifier = "CleanArchitecture"
+            BuildableName = "CleanArchitecture"
+            BlueprintName = "CleanArchitecture"
             ReferencedContainer = "container:">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "SampleDemo"
-            BuildableName = "SampleDemo"
-            BlueprintName = "SampleDemo"
+            BlueprintIdentifier = "CleanArchitecture"
+            BuildableName = "CleanArchitecture"
+            BlueprintName = "CleanArchitecture"
             ReferencedContainer = "container:">
          </BuildableReference>
       </BuildableProductRunnable>
